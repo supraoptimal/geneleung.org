@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/GupSpine/:path*",
+      "destination": "https://gup-spine.vercel.app/:path*"
+    }
+  ]
+}
