@@ -1,18 +1,20 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": true,
   "rewrites": [
     {
       "source": "/GupSpine/:path*",
       "destination": "https://gup-spine.vercel.app/:path*"
     },
     {
-      "source": "/XFU/:path*",
-      "destination": "https://app-alpha-ten-47.vercel.app/:path*"
-    },
-    {
       "source": "/XFU",
       "destination": "https://app-alpha-ten-47.vercel.app/"
+    },
+    {
+      "source": "/XFU/",
+      "destination": "https://app-alpha-ten-47.vercel.app/"
+    },
+    {
+      "source": "/XFU/:path*",
+      "destination": "https://app-alpha-ten-47.vercel.app/:path*"
     }
   ]
 }
