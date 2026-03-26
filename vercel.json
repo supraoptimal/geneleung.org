@@ -1,12 +1,15 @@
 {
+  "redirects": [
+    {
+      "source": "/XFU",
+      "destination": "/XFU/",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/GupSpine/:path*",
       "destination": "https://gup-spine.vercel.app/:path*"
-    },
-    {
-      "source": "/XFU",
-      "destination": "https://app-alpha-ten-47.vercel.app/"
     },
     {
       "source": "/XFU/",
