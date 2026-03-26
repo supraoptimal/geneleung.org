@@ -5,9 +5,18 @@
       "source": "/XFU",
       "destination": "/XFU/",
       "statusCode": 301
+    },
+    {
+      "source": "/GupSpine",
+      "destination": "/GupSpine/",
+      "statusCode": 301
     }
   ],
   "rewrites": [
+    {
+      "source": "/GupSpine/",
+      "destination": "https://gup-spine.vercel.app/"
+    },
     {
       "source": "/GupSpine/:path*",
       "destination": "https://gup-spine.vercel.app/:path*"
