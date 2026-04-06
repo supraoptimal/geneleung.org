@@ -10,6 +10,11 @@
       "source": "/GupSpine",
       "destination": "/GupSpine/",
       "statusCode": 301
+    },
+    {
+      "source": "/:path(interalia|InterAlia|Interalia|INTERALIA)",
+      "destination": "/interalia/",
+      "statusCode": 301
     }
   ],
   "rewrites": [
@@ -28,6 +33,14 @@
     {
       "source": "/XFU/:path*",
       "destination": "https://app-alpha-ten-47.vercel.app/:path*"
+    },
+    {
+      "source": "/interalia/",
+      "destination": "https://interalia.vercel.app/"
+    },
+    {
+      "source": "/interalia/:path*",
+      "destination": "https://interalia.vercel.app/:path*"
     }
   ]
 }
