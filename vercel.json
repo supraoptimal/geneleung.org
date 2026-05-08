@@ -2,12 +2,12 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/XFU",
+      "source": "/:path(xfu|Xfu|XFU)",
       "destination": "/XFU/",
       "statusCode": 301
     },
     {
-      "source": "/GupSpine",
+      "source": "/:path(gupspine|Gupspine|GupSpine|GUPSPINE)",
       "destination": "/GupSpine/",
       "statusCode": 301
     },
