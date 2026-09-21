@@ -15,6 +15,11 @@
       "source": "/:path(interalia|InterAlia|Interalia|INTERALIA)",
       "destination": "/interalia/",
       "statusCode": 301
+    },
+    {
+      "source": "/:path(period|Period|perIOD|PerIOD|PERIOD)",
+      "destination": "/perIOD/",
+      "statusCode": 301
     }
   ],
   "rewrites": [
@@ -41,6 +46,14 @@
     {
       "source": "/interalia/:path*",
       "destination": "https://interalia.vercel.app/:path*"
+    },
+    {
+      "source": "/perIOD/",
+      "destination": "https://period-dun.vercel.app/"
+    },
+    {
+      "source": "/perIOD/:path*",
+      "destination": "https://period-dun.vercel.app/:path*"
     }
   ]
 }
